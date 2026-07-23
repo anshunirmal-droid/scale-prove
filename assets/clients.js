@@ -49,5 +49,6 @@
 
 const CLIENT_ACCOUNTS = [
   { email: "demo@scaleprove.com",        password: "Scaleprove-Demo-1",  name: "Demo Client" },
-  { email: "founder@sandhusherbal.com",  password: "Sandhu-Pulse-2026",  name: "Sandhu's Herbal" }
+  { email: "founder@sandhusherbal.com",  password: "Sandhu-Pulse-2026",  name: "Sandhu's Herbal" },
+  { email: "test@yourbrand.com",         password: "Test-Login-123",    name: "Test Account" }
 ];
