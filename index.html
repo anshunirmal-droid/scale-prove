@@ -270,6 +270,7 @@
       <div class="tag">Client portal</div>
       <h3>Log in to Scaleprove</h3>
       <p class="sub">Access your account dashboard and growth tools.</p>
+      <div class="login-error" id="loginError"></div>
       <form id="loginForm">
         <div class="field">
           <label for="email">Email</label>
@@ -279,25 +280,15 @@
           <label for="password">Password</label>
           <input type="password" id="password" placeholder="••••••••" required>
         </div>
+        <label class="remember-row"><input type="checkbox" id="rememberMe"> Keep me signed in on this device</label>
         <button type="submit" class="btn btn-navy">Log in</button>
       </form>
       <div class="modal-foot">New client? <a href="contact.html">Book a strategy call</a> to get set up.</div>
     </div>
-    <div id="dashView" style="display:none;">
-      <div class="tag">Client portal</div>
-      <h3>You're in 👋</h3>
-      <p class="sub">Your growth tools are being provisioned. Here's what's launching for your account:</p>
-      <div class="dash-tools">
-        <div class="dtool"><div class="name">Listing Optimizer</div><div class="status">COMING SOON</div><span class="lock">🔒</span></div>
-        <div class="dtool"><div class="name">Ads Copilot</div><div class="status">COMING SOON</div><span class="lock">🔒</span></div>
-        <div class="dtool"><div class="name">Inventory Planner</div><div class="status">COMING SOON</div><span class="lock">🔒</span></div>
-        <div class="dtool"><div class="name">P&amp;L Dashboard</div><div class="status">COMING SOON</div><span class="lock">🔒</span></div>
-      </div>
-      <p class="sub" style="margin:0;">We'll notify you by email the moment your tools go live. In the meantime, your account team has your weekly review on the calendar.</p>
-    </div>
   </div>
 </div>
 
+<script src="assets/clients.js"></script>
 <script src="assets/main.js"></script>
 </body>
 </html>
